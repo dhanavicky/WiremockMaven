@@ -45,8 +45,10 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass></mainClass>
-						</configuration>
+                                                     <dir>target/classes</dir>
+                                                     <params>--port=8081 --verbose</params>
+                                                </configuration>
+
 					</execution>
 				</executions>
 			</plugin>
